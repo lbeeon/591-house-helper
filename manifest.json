@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "591 看房助手",
+  "version": "1.0",
+  "description": "自動隱藏 591 租屋／售屋網上已看過的物件，讓你每次瀏覽只看到新內容。",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://sale.591.com.tw/*", "https://rent.591.com.tw/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
