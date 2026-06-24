@@ -355,6 +355,12 @@ function buildManagerHTML() {
 <body>
   <header>
     <h1 id="page-title">591${isRent ? '租屋' : '售屋'}網 · 有興趣清單</h1>
+    <div style="margin-left:auto; display:flex; gap:12px; align-items:center; font-size:13px;">
+      <a href="https://github.com/lbeeon/591-house-helper" target="_blank"
+         style="color:#fff; opacity:0.8; text-decoration:none;">GitHub</a>
+      <a href="https://ko-fi.com/lbeeon" target="_blank"
+         style="background:#f39c12; color:#fff; border-radius:6px; padding:4px 12px; text-decoration:none; font-weight:600;">☕ 贊助</a>
+    </div>
   </header>
 
   <div class="tabs">
